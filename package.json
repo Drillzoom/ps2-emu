@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "soe-network": "https://github.com/Drillzoom/soe-network.git",
-    "soe-locale": "https://github.com/Drillzoom/soe-locale.git",
+    "soe-locale": "https://github.com/psemu/soe-locale.git",
     "hash-jenkins": "https://github.com/jseidelin/hash-jenkins.git",
     "atob": "*",
     "btoa": "*",
