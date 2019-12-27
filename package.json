@@ -4,7 +4,7 @@
   "description": "PlanetSide 2 network emulation",
   "repository": {
     "type": "git",
-    "url": "git://github.com/psemu/ps2-emu.git"
+    "url": "git://github.com/Drillzoom/ps2-emu.git"
   },
   "author": {
       "name" : "Jacob Seidelin", 
