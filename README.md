@@ -24,13 +24,22 @@ Pick a character to connect to the zone server. Only the initial handshake is ha
 
 ## Login server test
 
+Install MongoDB: https://docs.mongodb.com/manual/installation/
+
 This script sets up a local login server using the data in the `data` folder. The server will be running on port 20042. 
 
 `node loginservertest.js`
 
 Edit `ClientConfig.ini` and run the client executable directly. No session ID is needed:
 
-`Planetside2_x64.exe inifile=ClientConfig.local.ini sessionid=0 Internationalization:Locale=en_US`
+`
+ Server=127.0.0.1:20042
+ inifile=ClientConfig.local.ini
+ sessionid=0
+ Internationalization:Locale=en_US
+`
+
+`Planetside2_x64.exe`
 
 The login server is currently set up with a single character ("LocalPlayer") and a single, local server.
 
